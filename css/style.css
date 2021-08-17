@@ -2,6 +2,28 @@
 /* -------- General CSS -------- */
 /* ============================= */
 
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(255, 255, 255) #AF9483;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #AF9483;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 3px solid #AF9483;
+  }
+
+
 body {
     color: #666666;
     font-family: 'Open Sans', sans-serif;
