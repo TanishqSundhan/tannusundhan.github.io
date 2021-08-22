@@ -1286,3 +1286,27 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
   }
   
+
+
+/*******************************/
+/******** Cookie Policy ********/
+/*******************************/
+.cookie-bar{ position: fixed; bottom: 0px; padding:10px 15px; width: 100%; display: none; z-index: 15; background-color:#AF9483; font-family: "Poppins", sans-serif; }
+ .cookie-para { color: white; font-size: 12px; font-weight: normal; display: inline-block; padding-bottom: 1px; padding-top: 1px; text-align: center; }
+ .cookie-space { padding-bottom: 45px; }
+
+.cookie-btn{ font-size:14px; color: #ffffff; background: red; padding: 2px 15px; border-radius: 4px; 
+  display: inline-block; margin-left: 1%;  }
+.cookie-btn.secondary { color: #ffffff; background: #3575ff; }    
+  @media (max-width: 767px) {
+  .cookie-bar{ padding:10px 15px 40px 15px; }
+
+  .cookie-policy a {
+    font-size: 24px;
+    margin-left: 15px;
+    color: #fff;
+}
+
+.cookie-policy a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
